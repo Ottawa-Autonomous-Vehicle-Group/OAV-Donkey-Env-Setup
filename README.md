@@ -22,9 +22,12 @@ Run these commands in a miniconda window.  In the example below, the conda envir
 // Otherwise, just install tensorflow
 >conda install tensorflow keras
 
+// Install packages used by the Tawn's donkey project fork
 >conda install pillow docopt tornado requests python-socketio flask pandas  matplotlib scikit-learn
 
-// Go into your project directory and clone the donkey repository.  Here, we're assuming you have a "projects" directory in your user home directory.  In this example the project directory is called "donkey-tawn".  Name this to whatever you want.
+// Go into your project directory and clone the donkey repository.  Here, we're assuming you have a 
+// "projects" directory in your user home directory.  In this example the project directory is called 
+// "donkey-tawn".  Name this to whatever you want.
 
 >cd projects
 >git clone git@github.com:tawnkramer/donkey.git ./donkey-tawn
